@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int i,a[2];
+	printf("reg.no:192211541");
+	printf("\nenter the array elements");
+	for(i=0;i<2;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("the odd array element is:");
+	for(i=0;i<2;i++)
+	{
+		if(a[i]%2==1)
+		{
+			printf("%d",a[i]);
+		}
+	}
+	
+	return 0;
+}
