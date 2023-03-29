@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main ()
+{
+	int i,a[5];
+	int count=0;
+	printf("192211541");
+	printf("\nenter the elements of array");
+	for (i=0;i<5;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("count of negative numbers in array is");
+	for (i=0;i<10;i++)
+	{
+		if(a[i]<0)
+		{
+			count++;
+		}
+	}
+	printf("\n%d",count);
+	return 0;
+}
