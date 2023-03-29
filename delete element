@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int a[5]; 
+	int i;
+	printf("reg.no:192211541");
+	printf("\nenter the array elements");
+	for (i=0;i<5;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf(" the array elements after deleting a elements is:");
+	for(i=0;i<4;i++)
+	{
+		printf("%d,",a[i]);
+	}
+	return 0;
+}
