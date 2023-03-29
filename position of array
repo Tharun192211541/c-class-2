@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main ()
+{
+	int i,p,a[5];
+	int count=0;
+	printf("192211541");
+	printf("\nenter the elements of array");
+	for (i=0;i<5;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf(" enter the array element to know position");
+	scanf("%d",&p);
+	printf("the value %d is in position of",p);
+	for (i=0;i<5;i++)
+	{
+		if(a[i]==p)
+		{
+			printf("\n%d",i);
+		}
+	}
+	
+	return 0;
+}
